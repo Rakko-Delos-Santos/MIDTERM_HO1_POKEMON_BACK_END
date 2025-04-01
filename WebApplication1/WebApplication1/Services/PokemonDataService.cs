@@ -107,12 +107,6 @@ namespace WebApplication1.Services
                     Height = 18, Weight = 1005
                 },
 
-                // Add more Generation 1 and 2 Pokémon below...
-                // Continue the pattern for at least 100 Pokémon
-                // Make sure to include all required properties:
-                // - Id, Name, Types, Generation
-                // - NextEvolutionId, BaseEvolutionId (nullable)
-                // - ImageUrl, Height, Weight
             };
         }
     }
