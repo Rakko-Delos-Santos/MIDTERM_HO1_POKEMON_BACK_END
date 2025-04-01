@@ -53,7 +53,7 @@ namespace WebApplication1
             app.UseEndpoints(endpoints => {
                 endpoints.MapControllers();
 
-                // Add this fallback for React routing if needed
+
                 endpoints.MapFallbackToFile("index.html");
             });
         }
