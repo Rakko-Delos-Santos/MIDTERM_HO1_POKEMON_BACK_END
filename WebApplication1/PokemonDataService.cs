@@ -32,13 +32,13 @@ namespace PokemonApi.Services
         {
             var pokemons = new List<Pokemon>
             {
-                // Generation 1
+             
                 new Pokemon {
                     Id = 1, Name = "Bulbasaur", Types = new List<string> { "Grass", "Poison" },
                     Generation = 1, NextEvolutionId = 2, BaseEvolutionId = null,
                     ImageUrl = "https://img.pokemondb.net/artwork/bulbasaur.jpg"
                 },
-                // Add more Pokémon here - at least 100
+          
             };
 
             return pokemons;
