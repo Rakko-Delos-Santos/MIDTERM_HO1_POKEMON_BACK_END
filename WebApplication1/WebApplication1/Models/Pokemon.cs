@@ -10,9 +10,7 @@ namespace WebApplication1.Models
         public int? NextEvolutionId { get; set; }  
         public int? BaseEvolutionId { get; set; }  
         public string ImageUrl { get; set; }
-
-        // Add these new properties
-        public int Height { get; set; }  // In decimeters (10 = 1 meter)
-        public int Weight { get; set; }  // In hectograms (10 = 1 kg)
+        public int Height { get; set; }  
+        public int Weight { get; set; }  
     }
 }
